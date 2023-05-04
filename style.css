@@ -1,0 +1,122 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500&display=swap');
+
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Sora', sans-serif;
+}
+
+#hesapla {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 10px;
+    font-weight: 50;
+    line-height: 20px;
+    min-height: 10px;
+    outline: 0;
+    padding: 4px 8px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    margin-left: 28vh;
+    margin-bottom: 10px;
+  }
+
+#clear{
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 10px;
+    font-weight: 50;
+    line-height: 20px;
+    min-height: 10px;
+    outline: 0;
+    padding: 4px 8px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}  
+
+#clear:hover,
+#hesapla:hover{
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(217,223,255,1) 35%, rgba(220,249,255,1) 100%);
+
+}
+
+.column-left{
+    display: inline-block;
+    flex-direction: column;
+    width: 50%;
+    
+}
+
+.column-right{
+    width: 50%;
+}
+
+.row-left-up{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    column-gap: 10px;
+}
+.row-left-down{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    column-gap: 10px;
+}
+
+.row-down{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    margin: 20px;
+
+
+}
+
+.column-right-image{
+    width: 30%;
+    height: 50vh;
+    float: right;
+    
+
+}
