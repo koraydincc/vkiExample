@@ -1,3 +1,13 @@
+<!-- 
+
+  css position 
+
+
+  CSS Grid yapısı 
+  css flex box 
+
+
+ -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,7 +19,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="column-left">
+      <div class="column-left" style="position: relative">
         <div class="row-left-up">
           <p>Vücut Ağırlığı (kg):</p>
           <input type="number" id="inp-kg" class="inp-kg" />
@@ -22,7 +32,12 @@
         </div>
       </div>
       <div class="column-right-image">
-        <img src="./image/zayif.jpg" id="image1">
+        <img src="./image/zayif.jpg" id="image1" />
+        <img src="./image/normal.jpg" id="image2" />
+        <img src="./image/normaldenfazla.png" id="image3" />
+        <img src="./image/obezite1.jpg" id="image4" />
+        <img src="./image/obezite2.jpg" id="image5" />
+        <img src="./image/obezite3.jpg" id="image6" />
       </div>
       <div class="buttons">
         <button id="hesapla">Hesapla</button>
@@ -33,6 +48,7 @@
       <div class="row-down">
         <h3 id="sonuc"></h3>
         <p id="uyari"></p>
+      </div>
     </div>
   </body>
   <script src="main.js"></script>
